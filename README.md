@@ -19,7 +19,7 @@ Admob ANE for Flash Air
 	10.[Add test Device](#10add-test-device)    
 	11.[Android permission config](#11android-permission-config)    
 	12.[IOS permission config](#12ios-permission-config)
-	13.[ANE ID](#13ane-id)    
+	13.[ANE ID](#13ane-id)
 3. [Version](#version)    
 	1.[SDK version](#1sdk-version)   
 	2.[Update Date](#2update-date)  
