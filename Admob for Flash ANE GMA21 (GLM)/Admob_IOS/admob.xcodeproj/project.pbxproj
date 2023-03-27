@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0489796E29B635C000F56D26 /* admob.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489796D29B635C000F56D26 /* admob.m */; };
+		0489796F29B635C000F56D26 /* admob.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0489796C29B635C000F56D26 /* admob.h */; };
+		0489798829B6452300F56D26 /* admob.h in Headers */ = {isa = PBXBuildFile; fileRef = 0489796C29B635C000F56D26 /* admob.h */; };
+		048979B429B6541D00F56D26 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048979AD29B6541D00F56D26 /* GoogleAppMeasurement.framework */; };
+		048979B529B6541D00F56D26 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048979AE29B6541D00F56D26 /* nanopb.framework */; };
+		048979B629B6541D00F56D26 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048979AF29B6541D00F56D26 /* GoogleUtilities.framework */; };
+		048979B729B6541D00F56D26 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048979B029B6541D00F56D26 /* GoogleAppMeasurementIdentitySupport.framework */; };
+		048979B829B6541D00F56D26 /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048979B129B6541D00F56D26 /* PromisesObjC.framework */; };
+		048979B929B6541D00F56D26 /* UserMessagingPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048979B229B6541D00F56D26 /* UserMessagingPlatform.framework */; };
+		048979BA29B6541D00F56D26 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048979B329B6541D00F56D26 /* GoogleMobileAds.framework */; };
+		0494240F29BE86E5007A3F15 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0494240E29BE86E5007A3F15 /* FlashRuntimeExtensions.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0489796729B635BF00F56D26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0489796F29B635C000F56D26 /* admob.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0489796929B635BF00F56D26 /* libadmob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libadmob.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0489796C29B635C000F56D26 /* admob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = admob.h; sourceTree = "<group>"; };
+		0489796D29B635C000F56D26 /* admob.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = admob.m; sourceTree = "<group>"; };
+		048979AD29B6541D00F56D26 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		048979AE29B6541D00F56D26 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		048979AF29B6541D00F56D26 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		048979B029B6541D00F56D26 /* GoogleAppMeasurementIdentitySupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurementIdentitySupport.framework; sourceTree = "<group>"; };
+		048979B129B6541D00F56D26 /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromisesObjC.framework; sourceTree = "<group>"; };
+		048979B229B6541D00F56D26 /* UserMessagingPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserMessagingPlatform.framework; sourceTree = "<group>"; };
+		048979B329B6541D00F56D26 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		0494240E29BE86E5007A3F15 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0489796629B635BF00F56D26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048979B829B6541D00F56D26 /* PromisesObjC.framework in Frameworks */,
+				048979B929B6541D00F56D26 /* UserMessagingPlatform.framework in Frameworks */,
+				048979B729B6541D00F56D26 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */,
+				048979B629B6541D00F56D26 /* GoogleUtilities.framework in Frameworks */,
+				048979B529B6541D00F56D26 /* nanopb.framework in Frameworks */,
+				048979BA29B6541D00F56D26 /* GoogleMobileAds.framework in Frameworks */,
+				048979B429B6541D00F56D26 /* GoogleAppMeasurement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0489796029B635BF00F56D26 = {
+			isa = PBXGroup;
+			children = (
+				0489796B29B635BF00F56D26 /* admob */,
+				0489796A29B635BF00F56D26 /* Products */,
+				0489797529B6373700F56D26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0489796A29B635BF00F56D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0489796929B635BF00F56D26 /* libadmob.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0489796B29B635BF00F56D26 /* admob */ = {
+			isa = PBXGroup;
+			children = (
+				0489796C29B635C000F56D26 /* admob.h */,
+				0489796D29B635C000F56D26 /* admob.m */,
+			);
+			path = admob;
+			sourceTree = "<group>";
+		};
+		0489797529B6373700F56D26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048979AD29B6541D00F56D26 /* GoogleAppMeasurement.framework */,
+				048979B029B6541D00F56D26 /* GoogleAppMeasurementIdentitySupport.framework */,
+				048979B329B6541D00F56D26 /* GoogleMobileAds.framework */,
+				048979AF29B6541D00F56D26 /* GoogleUtilities.framework */,
+				048979AE29B6541D00F56D26 /* nanopb.framework */,
+				048979B129B6541D00F56D26 /* PromisesObjC.framework */,
+				048979B229B6541D00F56D26 /* UserMessagingPlatform.framework */,
+				0494240E29BE86E5007A3F15 /* FlashRuntimeExtensions.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0489798729B6451700F56D26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0494240F29BE86E5007A3F15 /* FlashRuntimeExtensions.h in Headers */,
+				0489798829B6452300F56D26 /* admob.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0489796829B635BF00F56D26 /* admob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489797229B635C000F56D26 /* Build configuration list for PBXNativeTarget "admob" */;
+			buildPhases = (
+				0489796529B635BF00F56D26 /* Sources */,
+				0489796629B635BF00F56D26 /* Frameworks */,
+				0489798729B6451700F56D26 /* Headers */,
+				0489796729B635BF00F56D26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = admob;
+			productName = admob;
+			productReference = 0489796929B635BF00F56D26 /* libadmob.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0489796129B635BF00F56D26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0489796829B635BF00F56D26 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0489796429B635BF00F56D26 /* Build configuration list for PBXProject "admob" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0489796029B635BF00F56D26;
+			productRefGroup = 0489796A29B635BF00F56D26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0489796829B635BF00F56D26 /* admob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0489796529B635BF00F56D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489796E29B635C000F56D26 /* admob.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0489797029B635C000F56D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0489797129B635C000F56D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0489797329B635C000F56D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0489797429B635C000F56D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0489796429B635BF00F56D26 /* Build configuration list for PBXProject "admob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489797029B635C000F56D26 /* Debug */,
+				0489797129B635C000F56D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489797229B635C000F56D26 /* Build configuration list for PBXNativeTarget "admob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489797329B635C000F56D26 /* Debug */,
+				0489797429B635C000F56D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0489796129B635BF00F56D26 /* Project object */;
+}
