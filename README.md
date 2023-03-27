@@ -317,7 +317,7 @@ replace ca-app-pub-3940256099942544~3347511713 with your admob ID
 
 ## version
 
-#### 1.Sdk version 
+#### 1.Sdk version
 Version 1.0 use Admob sdk V 21.3.0    
 
 #### 2.Update Date
