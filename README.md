@@ -1,5 +1,5 @@
 # Admob-for-Flash-ANE-GMA21-GLM-
-Admob for Flash ANE GMA21 (GLM) "adobe air native extension" Android and IOS
+Admob for Flash ANE GMA21 Android and IOS "adobe air native extension" 
 
 Admob ANE for Flash Air
 ==============================
