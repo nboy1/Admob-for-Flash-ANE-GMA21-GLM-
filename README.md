@@ -28,10 +28,6 @@ Admob ANE for Flash Air
 
 
 
-#### 1.Sdk version 
-Version 1.0 use Admob sdk V 21.3.0    
-
-#### 2.Update Date
 
 ## Admob ANE Description
 this New 2023 Adobe Air Native Extention(ANE) for Admob with latest Admob SDK GMA-21+ for IOS and Android.
