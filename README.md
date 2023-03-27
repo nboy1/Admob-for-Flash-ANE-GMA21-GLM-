@@ -21,7 +21,7 @@ Admob ANE for Flash Air
 	12.[IOS permission config](#12ios-permission-config)
 	13.[ANE ID](#13ane-id)
 3. [Version](#version)
-	1.[Sdk version](#1sdk-version)  
+	1.[SDK version](#1sdk-version)  
 	2.[Update Date](#2update-date)  
 4. [Links](#links)
 5. [License](#license)
@@ -312,12 +312,17 @@ replace ca-app-pub-3940256099942544~3347511713 with your admob ID
 ```
 
 ## version
-
-#### 1.Sdk version
-Version 1.0 use Admob sdk V 21.3.0    
+#### 1.SDK version
+```
+Version 1.0 use Admob sdk V 21.3.0  
+```
+  
 
 #### 2.Update Date
- 2023.03.27
+```
+2023.03.27
+```
+ 
 
 
  
