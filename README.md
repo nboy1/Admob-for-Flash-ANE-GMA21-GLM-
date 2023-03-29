@@ -77,7 +77,7 @@ to Load and Show AppOpen ads add this line of code.
 
 #### 3.Get Banner Size
 
-Get Banner Height Size to adjust you game with the Banner Height Size, and to leave a specified place for banner ads to meet new google Admob requirements.
+Get Banner Height Size to adjust your game with the Banner Height Size, and to leave a specified place for banner ads to meet new google Admob requirements.
 
 use a var to store the banner Height size "it get auto size based on device dimension".
 like in this example:
