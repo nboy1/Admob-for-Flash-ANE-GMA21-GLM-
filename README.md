@@ -34,6 +34,7 @@ this is a New 2023 Adobe Air Native Extention(ANE) for Admob, with latest Admob 
 this Admob ANE offer easy way to integrat Admob Ads with your AIR Games and Apps  with few lines of code.
 compliant with COPPA GDPR...
 You can use it free for your Android Apps and IOS Apps.
+Notice : use "targeting" tags before requesting ads;
 
 
 
@@ -188,7 +189,7 @@ use this function to get events of your rewardd video.
 #### 9.Child-directed setting (COPPA) (GDPR) (EEA)
 
 this Ane by default target +12 and compliant with "(COPPA)", "tag for child-directed treatment",
-if you want to chage setting based on your game targeting use this line of code
+if you want to change setting based on your game targeting use this line of code
 
 
 ```
