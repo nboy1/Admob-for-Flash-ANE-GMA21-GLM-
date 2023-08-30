@@ -34,6 +34,7 @@ this is a New 2023 Adobe Air Native Extention(ANE) for Admob, with latest Admob 
 this Admob ANE offer easy way to integrat Admob Ads with your AIR Games and Apps  with few lines of code.
 compliant with COPPA GDPR...
 You can use it free for your Android Apps and IOS Apps.
+
 Notice : use "targeting" tags before requesting ads;
 
 
