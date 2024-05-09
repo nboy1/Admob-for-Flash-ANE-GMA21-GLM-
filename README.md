@@ -240,7 +240,7 @@ replace ca-app-pub-3940256099942544~3347511713 with your admob ID
 ```
 <android>
         <manifestAdditions><![CDATA[
-			<manifest android:installLocation="auto">
+			<manifest>
 					<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 					<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 					<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
