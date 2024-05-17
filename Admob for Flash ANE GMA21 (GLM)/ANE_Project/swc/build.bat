@@ -1,0 +1,1 @@
+"%AIR_HOME%\bin\acompc.bat" --source-path air -include-classes com.glm.admob.Admob  -swf-version=30 -output SWC\Admob.swc
