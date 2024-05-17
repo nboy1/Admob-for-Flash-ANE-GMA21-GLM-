@@ -66,6 +66,12 @@ public class ExtensionCalls extends FREContext {
     public RewardedVideo rewardedVideo = new RewardedVideo();
 
 
+    //App Review
+    private static final String loadAppReview="loadAppReview";
+    private static final String showAppReview="showAppReview";
+    public AppReview appReview = new AppReview();
+
+
 
     public static final String message="message";
 
@@ -189,6 +195,27 @@ public class ExtensionCalls extends FREContext {
         });
 
 
+        ////Admob App Review
+        functionMap.put(ExtensionCalls.loadAppReview, new FREFunction() {
+            @Override
+            public FREObject call(FREContext arg0, FREObject[] arg1) {
+               appReview.setContext(cc(  arg0  ));
+              appReview.countDown();
+               appReview.requestReview();
+                return null;
+            }
+        });
+
+        functionMap.put(ExtensionCalls.showAppReview, new FREFunction() {
+            @Override
+            public FREObject call(FREContext arg0, FREObject[] arg1) {
+             //   appReview.setContext(cc(  arg0  ));
+               appReview.launchReview();
+                return null;
+            }
+        });
+
+
         //////Admob Adaptive Banner Ads
         functionMap.put(ExtensionCalls.showAdaptiveBanner, new FREFunction() {
             @Override
@@ -237,6 +264,7 @@ public class ExtensionCalls extends FREContext {
                 set_values();
                 interstitial_ad.setContext(cc(  arg0  ));
                 String InterstitialKey = getString(arg1, 0);
+                interstitial_ad.countDown();
                 interstitial_ad.LoadInterstitial(InterstitialKey);
                 return null;
             }

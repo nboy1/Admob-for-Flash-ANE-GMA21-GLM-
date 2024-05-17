@@ -1,0 +1,4 @@
+//YOU HAVE TO SET AIR_HOME IN YOUR PC OR COPY IT'S PATH TO "acompc.bat", AND TYPE CMD IN FOLDER PATH AND PRESS ENTER AND PAST THIS LINE CODE AFTER acompc.bat PATH INSIDE CMD AND PRESS ENTER TO BUILD SWC, OR SIMPLY SAVE THIS TXT FILE AS .bat TO EXECUTE THIS LINE :)
+
+
+"%AIR_HOME%\bin\acompc.bat" --source-path air -include-classes com.glm.admob.Admob  -swf-version=30 -output SWC\Admob.swc

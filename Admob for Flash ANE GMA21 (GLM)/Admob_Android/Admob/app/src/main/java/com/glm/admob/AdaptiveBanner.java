@@ -132,7 +132,6 @@ public class AdaptiveBanner {
     public void Hide(){
         banner_view.removeAllViews();
 
-        showAdaptiveBanner(Admob_ID,position_);
     }
 }
 

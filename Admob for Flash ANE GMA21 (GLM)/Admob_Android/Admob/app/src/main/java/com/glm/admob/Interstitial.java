@@ -40,7 +40,7 @@ public class Interstitial   {
 
 
     public void LoadInterstitial(String admobID )    {
-        countDown();
+      //  countDown();
         Admob_Id=admobID;
         InterstitialAd.load(context.getActivity(), admobID, requestConfigurations.request(),
                 new InterstitialAdLoadCallback() {
@@ -74,10 +74,12 @@ public class Interstitial   {
         if(interstitial!=null&&loaded==true){
 
             interstitial.show(context.getActivity());
+            countDown();
             LoadInterstitial(Admob_Id);
 
         }
         else {
+            countDown();
             LoadInterstitial(Admob_Id);
         }
 
