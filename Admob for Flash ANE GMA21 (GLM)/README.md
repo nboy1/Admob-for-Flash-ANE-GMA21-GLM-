@@ -30,7 +30,7 @@ Admob ANE for Flash Air
 
 
 ## Admob ANE Description
-this is a New 2024 Adobe Air Native Extention(ANE) for Admob, with latest Admob SDK GMA-23.x for IOS and Android.
+this is a New 2026 Adobe Air Native Extention(ANE) for Admob, with latest Admob SDK GMA-24.8.0 for Android and (IOS still 23.x).
 this Admob ANE offer easy way to integrat Admob Ads with your AIR Games and Apps  with few lines of code.
 compliant with COPPA GDPR...
 You can use it free for your Android Apps and IOS Apps.
@@ -38,7 +38,15 @@ You can use it free for your Android Apps and IOS Apps.
 Notice : use "targeting" tags before requesting ads;
 
 
+### Requirements Update
 
+This release updates the AdMob ANE to use the latest Google Mobile Ads SDK (v24.8.0).
+
+**Minimum requirements:**
+- Minimum SDK version: 23
+- Target SDK version: 35
+
+Please make sure your Android project is configured with these SDK levels to ensure proper compatibility and ad serving.
 
 
 
@@ -239,34 +247,28 @@ replace ca-app-pub-3940256099942544~3347511713 with your admob ID
 
 ```
 <android>
-        <manifestAdditions><![CDATA[
-			<manifest>
-					<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-					<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-					<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-					<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-					<uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-					 <application>
-						<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
-					      <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent"/>
-						<receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false" ></receiver>
-					       <receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:enabled="true" android:exported="true" android:permission="android.permission.INSTALL_PACKAGES" >
-							<intent-filter>
-							    <action android:name="com.android.vending.INSTALL_REFERRER" />
-							</intent-filter>
-					        </receiver>
-
-					        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
-					        <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:enabled="true" android:exported="false" android:permission="android.permission.BIND_JOB_SERVICE" />
-					        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false" ></receiver>
-
-					        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
-						  <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-3940256099942544~3347511713"/>
-					</application>
-			</manifest>
-
-		]]></manifestAdditions>
-    </android>
+<manifestAdditions>
+<![CDATA[ <manifest android:installLocation="auto">
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="35" />
+<application android:name="androidx.multidex.MultiDexApplication" android:hardwareAccelerated="true">
+<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-3940256099942544~3347511713"/>
+<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+<meta-data android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION" android:value="true"/>
+<meta-data android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING" android:value="true"/>
+<activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" android:hardwareAccelerated="true" />
+<receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false" />
+<receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:enabled="true" android:exported="true" android:permission="android.permission.INSTALL_PACKAGES">
+<intent-filter> <action android:name="com.android.vending.INSTALL_REFER_REFERRER" /> </intent-filter>
+ </receiver>
+<service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
+<service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:enabled="true" android:exported="false" android:permission="android.permission.BIND_JOB_SERVICE" />
+</application>
+</manifest> ]]>
+</manifestAdditions>
+</android>
 ```
 
 
@@ -316,13 +318,13 @@ replace ca-app-pub-3940256099942544~3347511713 with your admob ID
 ## version
 #### 1.SDK version
 ```
-Version 3.0 use Admob sdk V 23.0.0  
+Version 4.0 use Admob sdk V 24.8.0  
 ```
   
 
 #### 2.Update Date
 ```
-2024.05.17
+2026.01.03
 ```
  
 
@@ -334,6 +336,7 @@ admob http://apps.admob.com
 
 ## License
 [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html)
+
 
 
 
