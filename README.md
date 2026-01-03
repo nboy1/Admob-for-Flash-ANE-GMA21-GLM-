@@ -21,6 +21,8 @@ and the iOS implementation remains on Google Mobile Ads SDK v23.0.0.
 Notice : use "targeting" tags before requesting ads;
 
 
+
+
 ### Requirements Update
 
 This release updates the AdMob ANE to use the latest Google Mobile Ads SDK (v24.8.0).
@@ -29,7 +31,10 @@ This release updates the AdMob ANE to use the latest Google Mobile Ads SDK (v24.
 - Minimum SDK version: 23
 - Target SDK version: 35
 
+
 Please make sure your Android project is configured with these SDK levels to ensure proper compatibility and ad serving.
+
+
 
 
 Admob ANE for Flash Air
