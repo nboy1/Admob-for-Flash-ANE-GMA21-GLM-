@@ -22,6 +22,17 @@ For this reason, iOS updates or testing are not available at the moment, and the
 
 ---
 
+### Support This Project
+
+If you find this project useful and would like to support its development, you can sponsor the project here:
+
+👉 **https://paypal.me/hassansouidi**
+
+Thank you for your support!
+
+
+---
+
 
 
 ### Requirements Update
