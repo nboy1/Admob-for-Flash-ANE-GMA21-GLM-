@@ -1,6 +1,45 @@
 # Admob-for-Flash-ANE-GMA21-GLM-
 Admob for Flash ANE GMA21 Android and IOS "adobe air native extension" 
 
+
+
+## Admob ANE Description
+This is a new 2026 Adobe AIR Native Extension (ANE) for AdMob, using the latest Google Mobile Ads SDK **GMA 24.8.0** for Android (iOS is currently using **23.x**).
+
+This AdMob ANE offers an easy way to integrate AdMob ads into your AIR games and applications with only a few lines of code.
+
+Compliant with **COPPA** and **GDPR** requirements.
+
+You can use it for free in both **Android** and **iOS** AIR applications.
+
+---
+
+### iOS Support Notice
+
+Building and testing the iOS version requires access to a physical **iPhone**, which I currently do not have.
+
+For this reason, iOS updates or testing are not available at the moment, and the iOS implementation remains on **Google Mobile Ads SDK v23.0.0**.
+
+---
+
+### Important Notice
+
+Please make sure to apply **targeting tags** before requesting ads.
+
+---
+
+### Requirements Update
+
+This release updates the AdMob ANE to use the latest Google Mobile Ads SDK (**v24.8.0**).
+
+**Minimum requirements:**
+- **Minimum SDK version:** 23
+- **Target SDK version:** 35
+
+Please ensure your Android project is configured with these SDK levels to guarantee proper compatibility and ad serving.
+
+
+
 Admob ANE for Flash Air
 ==============================
 
@@ -28,25 +67,6 @@ Admob ANE for Flash Air
 
 
 
-
-## Admob ANE Description
-this is a New 2026 Adobe Air Native Extention(ANE) for Admob, with latest Admob SDK GMA-24.8.0 for Android and (IOS still 23.x).
-this Admob ANE offer easy way to integrat Admob Ads with your AIR Games and Apps  with few lines of code.
-compliant with COPPA GDPR...
-You can use it free for your Android Apps and IOS Apps.
-
-Notice : use "targeting" tags before requesting ads;
-
-
-### Requirements Update
-
-This release updates the AdMob ANE to use the latest Google Mobile Ads SDK (v24.8.0).
-
-**Minimum requirements:**
-- Minimum SDK version: 23
-- Target SDK version: 35
-
-Please make sure your Android project is configured with these SDK levels to ensure proper compatibility and ad serving.
 
 
 
@@ -336,6 +356,7 @@ admob http://apps.admob.com
 
 ## License
 [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html)
+
 
 
 
