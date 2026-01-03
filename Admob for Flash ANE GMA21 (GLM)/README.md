@@ -295,7 +295,7 @@ replace ca-app-pub-3940256099942544~3347511713 with your admob ID
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
-    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="34"/>
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="35"/>
 
     <application android:hardwareAccelerated="true">
 
@@ -424,6 +424,7 @@ admob http://apps.admob.com
 
 ## License
 [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html)
+
 
 
 
