@@ -14,7 +14,7 @@ You can use it free for your Android Apps and IOS Apps.
 
 Regarding iOS support: building and testing the iOS version requires access to a physical iPhone,
 
-which I currently do not have. For this reason, iOS updates or testing are not available at the moment, 
+which I currently do not have. For this reason, iOS updates or testing are not available for me at the moment, 
 
 and the iOS implementation remains on Google Mobile Ads SDK v23.0.0. 
 
