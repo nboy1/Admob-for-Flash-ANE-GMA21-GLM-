@@ -5,8 +5,11 @@ Admob for Flash ANE GMA21 Android and IOS "adobe air native extension"
 
 ## Admob ANE Description
 this is a New 2026 Adobe Air Native Extention(ANE) for Admob, with latest Admob SDK GMA-24.8.0 for Android and (IOS still 23.x).
+
 this Admob ANE offer easy way to integrat Admob Ads with your AIR Games and Apps  with few lines of code.
+
 compliant with COPPA GDPR...
+
 You can use it free for your Android Apps and IOS Apps.
 
 Regarding iOS support: building and testing the iOS version requires access to a physical iPhone, 
