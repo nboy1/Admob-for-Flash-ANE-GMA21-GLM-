@@ -22,11 +22,7 @@ For this reason, iOS updates or testing are not available at the moment, and the
 
 ---
 
-### Important Notice
 
-Please make sure to apply **targeting tags** before requesting ads.
-
----
 
 ### Requirements Update
 
@@ -39,7 +35,13 @@ This release updates the AdMob ANE to use the latest Google Mobile Ads SDK (**v2
 Please ensure your Android project is configured with these SDK levels to guarantee proper compatibility and ad serving.
 
 
+---
+### Important Notice
 
+Please make sure to apply **targeting tags** before requesting ads.
+
+
+---
 
 Admob ANE for Flash Air
 ==============================
