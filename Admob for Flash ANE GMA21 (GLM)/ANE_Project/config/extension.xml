@@ -1,24 +1,24 @@
-﻿<extension xmlns="http://ns.adobe.com/air/extension/32.0">
+﻿<extension xmlns="http://ns.adobe.com/air/extension/51.2">
     <id>com.glm.admob</id>
-    <versionNumber>0.0.3</versionNumber>
+    <versionNumber>0.0.1</versionNumber>
     <platforms>
         <platform name="Android-ARM">
             <applicationDeployment>
-                <nativeLibrary>admob23.0.0.jar</nativeLibrary>
+                <nativeLibrary>admob24.8.0.jar</nativeLibrary>
                 <initializer>com.glm.admob.Extension</initializer>
                 <finalizer>com.glm.admob.Extension</finalizer>
             </applicationDeployment>
         </platform>
         <platform name="Android-x86">
             <applicationDeployment>
-                <nativeLibrary>admob23.0.0.jar</nativeLibrary>
+                <nativeLibrary>admob24.8.0.jar</nativeLibrary>
                 <initializer>com.glm.admob.Extension</initializer>
                 <finalizer>com.glm.admob.Extension</finalizer>
             </applicationDeployment>
         </platform>
         <platform name="Android-ARM64">
             <applicationDeployment>
-                <nativeLibrary>admob23.0.0.jar</nativeLibrary>
+                <nativeLibrary>admob24.8.0.jar</nativeLibrary>
                 <initializer>com.glm.admob.Extension</initializer>
                 <finalizer>com.glm.admob.Extension</finalizer>
             </applicationDeployment>

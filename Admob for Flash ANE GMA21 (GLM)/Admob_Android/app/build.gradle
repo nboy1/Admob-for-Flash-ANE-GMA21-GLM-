@@ -3,38 +3,47 @@ plugins {
 }
 
 android {
-    namespace 'com.glm.admob'
-    compileSdk 34
+
+
+    namespace = 'com.glm.admob'
+    compileSdk = 36
 
     defaultConfig {
-        //applicationId "com.glm.admob"
-        minSdk 21
-        targetSdk 34
+        minSdk = 23
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0"
 
-
-        versionCode 1
-        versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled = false
+            // This pulls in your proguard-rules.pro file
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
 
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.google.android.gms:play-services-ads:23.0.0'
-    implementation 'com.google.android.play:review:2.0.1'
-    implementation files('libs/FlashRuntimeExtensions.jar')
-    implementation 'androidx.core:core:1.13.1'
-    implementation 'com.google.android.material:material:1.12.0'
 
+    // Google Mobile Ads SDK (Latest Stable)
+    implementation 'com.google.android.gms:play-services-ads:24.8.0'
+
+    // User Messaging Platform
+    implementation 'com.google.android.ump:user-messaging-platform:4.0.0'
+
+    // Material Components (Latest Stable)
+    implementation 'com.google.android.material:material:1.13.0'
+
+    // Adobe AIR / Flash Runtime Support
+    implementation files('libs/FlashRuntimeExtensions.jar')
 }
+

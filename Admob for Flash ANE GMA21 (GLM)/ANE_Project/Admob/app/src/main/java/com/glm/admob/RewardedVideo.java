@@ -6,7 +6,6 @@ import androidx.annotation.NonNull;
 
 import com.adobe.fre.FREContext;
 import com.google.android.gms.ads.AdError;
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.OnUserEarnedRewardListener;
@@ -105,8 +104,7 @@ public class RewardedVideo {
                         @Override
                         public void onAdDismissedFullScreenContent() {
                             // Called when ad is dismissed.
-                            // Don't forget to set the ad reference to null so you
-                            // don't show the ad a second time.
+
                             rewardedVideoAd = null;
                             context.dispatchStatusEventAsync("onAdDismissedFullScreenContent", "events");
 

@@ -1,10 +1,11 @@
-﻿<project name="ANE" basedir="." default="start">
+<project name="ANE" basedir="." default="start">
 
 
 	<property file="build.properties"/>
 
 	<target name="cleanBinaries">
 		<delete dir="${BINARIES_FOLDER}"/>
+        <delete dir="${ANE_PATH2}/"/>
 		<mkdir dir="${BINARIES_FOLDER}"/>
 		<mkdir dir="${BINARIES_FOLDER}/android"/>
 		
@@ -25,7 +26,7 @@
 		
 
 
-		<copy file="classesunziped/classes.jar" tofile="${BINARIES_FOLDER}/android/admob23.0.0.jar"/>
+		<copy file="classesunziped/classes.jar" tofile="${BINARIES_FOLDER}/android/admob24.8.0.jar"/>
 		<delete file="${BINARIES_FOLDER}/android/FlashRuntimeExtensions.jar"/>
 <copydir src="${IOS_FOLDER}" forceoverwrite="true" dest="${BINARIES_FOLDER}/ios"/>
 	</target>

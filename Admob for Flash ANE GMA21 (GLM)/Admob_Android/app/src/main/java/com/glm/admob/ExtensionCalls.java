@@ -69,7 +69,6 @@ public class ExtensionCalls extends FREContext {
     //App Review
     private static final String loadAppReview="loadAppReview";
     private static final String showAppReview="showAppReview";
-    public AppReview appReview = new AppReview();
 
 
 
@@ -97,7 +96,7 @@ public class ExtensionCalls extends FREContext {
         //////// debugging
         Map<String, FREFunction> functionMap = new HashMap<String, FREFunction>();
 
-        
+
         functionMap.put(ExtensionCalls.message, new FREFunction() {
             @Override
             public FREObject call(FREContext arg0, FREObject[] arg1) {
@@ -195,25 +194,9 @@ public class ExtensionCalls extends FREContext {
         });
 
 
-        ////Admob App Review
-        functionMap.put(ExtensionCalls.loadAppReview, new FREFunction() {
-            @Override
-            public FREObject call(FREContext arg0, FREObject[] arg1) {
-               appReview.setContext(cc(  arg0  ));
-              appReview.countDown();
-               appReview.requestReview();
-                return null;
-            }
-        });
 
-        functionMap.put(ExtensionCalls.showAppReview, new FREFunction() {
-            @Override
-            public FREObject call(FREContext arg0, FREObject[] arg1) {
-             //   appReview.setContext(cc(  arg0  ));
-               appReview.launchReview();
-                return null;
-            }
-        });
+
+
 
 
         //////Admob Adaptive Banner Ads
@@ -225,9 +208,9 @@ public class ExtensionCalls extends FREContext {
                 String Position = getString(arg1, 1);
                 requestConfigurations.setContext(cc(arg0));
                 set_values();
-                  //  requestConfigurations._adRequest();
-                    adaptiveBanner.showAdaptiveBanner(AdaptiveBannerKey,Position);
-                  //  requestConfigurations.banner(PositionStr);
+                //  requestConfigurations._adRequest();
+                adaptiveBanner.showAdaptiveBanner(AdaptiveBannerKey,Position);
+                //  requestConfigurations.banner(PositionStr);
                 return null;
             }
         });

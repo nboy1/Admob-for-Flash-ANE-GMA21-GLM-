@@ -18,10 +18,6 @@ public class Admob extends EventDispatcher{
 	public static const  tag_for_max_ad_content_rating:String="tag_for_max_ad_content_rating";
 	
 	public static const  showAppOpen:String="showAppOpen";
-	
-	public static const  loadAppReview:String="loadAppReview";
-	public static const  showAppReview:String="showAppReview";
-
 
 	public static const  showAdaptiveBanner:String="showAdaptiveBanner";
 	public static const  getAdaptiveBannerSize:String="getAdaptiveBannerHeight";
@@ -151,27 +147,6 @@ public class Admob extends EventDispatcher{
           
  			
 		}
-		
-				 /////////////////*** APP Review ***//////////////////
-		
-		public function LoadAppReview():void
-		{
-			 
-                extensionContext.call(loadAppReview);
-          
- 			
-		}
-		
-		
-		public function ShowAppReview():void
-		{
-			 
-                extensionContext.call(showAppReview);
-          
- 			
-		}
-		
-		
 		
 		/////////////////***ADAPTIVE BANNER***//////////////////
 		public function ShowAdaptiveBanner(AdaptiveBannerKey:String,position:String="TOP or BOTTOM"):void

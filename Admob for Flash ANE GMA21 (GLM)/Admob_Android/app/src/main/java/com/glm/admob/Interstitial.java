@@ -40,7 +40,7 @@ public class Interstitial   {
 
 
     public void LoadInterstitial(String admobID )    {
-      //  countDown();
+        //  countDown();
         Admob_Id=admobID;
         InterstitialAd.load(context.getActivity(), admobID, requestConfigurations.request(),
                 new InterstitialAdLoadCallback() {
@@ -51,7 +51,7 @@ public class Interstitial   {
                         loaded=true;
                         interstitial = Ad;
 
-                     }
+                    }
 
                     @Override
                     public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
@@ -62,7 +62,7 @@ public class Interstitial   {
                         {
                             LoadInterstitial(Admob_Id);
                         }
-                     }
+                    }
 
                 });
 

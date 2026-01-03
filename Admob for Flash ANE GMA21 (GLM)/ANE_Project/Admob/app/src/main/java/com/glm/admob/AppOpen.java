@@ -1,5 +1,6 @@
 package com.glm.admob;
 
+
 import android.content.res.Resources;
 import android.os.CountDownTimer;
 
@@ -63,6 +64,17 @@ public class AppOpen {
         return orientation;
      }
 
+    // --------------------------------------------------
+    // On app resume / ACTIVATE
+    // --------------------------------------------------
+    public void onAppResume() {
+
+        if (admobID_ == null)
+
+            return; showAppOpenAd(admobID_);
+
+    }
+
     public void setContext(FREContext ctx) {
         this.context = ctx;
     }
@@ -79,7 +91,7 @@ public class AppOpen {
             {
                 AppOpenAd.load(
                         context.getActivity(), admobID, requestConfigurations.request(),
-                        getOrientation(),
+
                         new AppOpenAd.AppOpenAdLoadCallback() {
                             @Override
                             public void onAdLoaded(@NonNull AppOpenAd ad) {
@@ -110,7 +122,6 @@ public class AppOpen {
 
                 AppOpenAd.load(
                         context.getActivity(), admobID, requestConfigurations.request(),
-                        getOrientation(),
                         new AppOpenAd.AppOpenAdLoadCallback() {
                             @Override
                             public void onAdLoaded(@NonNull AppOpenAd ad) {

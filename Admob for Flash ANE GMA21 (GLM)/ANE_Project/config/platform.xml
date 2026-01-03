@@ -1,4 +1,4 @@
-<platform xmlns="http://ns.adobe.com/air/extension/32.0">
+<platform xmlns="http://ns.adobe.com/air/extension/51.2">
 	<copyright>ane 2020</copyright>
 	<sdkVersion>12.0</sdkVersion>
 	<linkerOptions>
