@@ -280,6 +280,9 @@ to add a test device to test your ads on you test device, use this line of code
 replace ca-app-pub-3940256099942544~3347511713 with your admob ID
 
 
+
+
+
 ```
 
 
@@ -358,6 +361,8 @@ replace ca-app-pub-3940256099942544~3347511713 with your admob ID
 
 
 
+
+
 #### 12.IOS permission config
 
 
@@ -419,6 +424,7 @@ admob http://apps.admob.com
 
 ## License
 [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html)
+
 
 
 
